@@ -1,0 +1,10 @@
+### Post a new film
+POST http://localhost:3000/films
+Content-Type: application/json
+
+{
+    "title": "miaou",
+    "duration": "55",
+    "budget": "120",
+    "link": "miaou.com"
+}
